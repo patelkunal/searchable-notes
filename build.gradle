@@ -21,8 +21,9 @@ repositories {
 }
 
 dependencies {
-	compile('com.google.guava:guava:23.0')
-	compile 'org.elasticsearch.client:elasticsearch-rest-client:6.0.0'	
+	// compile('com.google.guava:guava:23.0')
+	// compile 'org.elasticsearch.client:elasticsearch-rest-high-level-client:6.0.0'
+    compile 'org.elasticsearch.client:transport:6.0.0'
 	compileOnly 'org.projectlombok:lombok:1.16.18'    
     
 	testCompile 'junit:junit:4.12'
